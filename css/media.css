@@ -1,0 +1,502 @@
+/* All phones */
+@media screen and (max-width:670px){
+/* Nav-bar section */
+.home{
+    height: fit-content;
+}
+.home-navbar-container{
+    justify-content: space-evenly;
+    position: relative;
+}
+.navbar-logo{
+    transform: translate(-38%,-8%);
+    padding: 30px 0;
+    
+}
+.navbar-logo h2{
+    font-size: 60px;
+}
+.navbar-list li{
+    display: none;
+    transform: translateX(-65%);
+    padding: 10px 15px;
+    font-size: 35px;
+    position: relative;
+}
+.nav-logo-text::before{
+    transform: scale(4.5);
+}
+.navbar-list ul::after{
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    transform: rotate(-18deg);
+    box-shadow: -15px 0px 0px 7px black;
+}
+.mobile-line1,
+.mobile-line2,
+.mobile-line3{
+    width: 40px;
+    background-color: aqua;
+    border-top: 6px solid black;
+    margin-bottom:10px;
+}
+.mobile-lines{
+    position: absolute;
+    top: 27%;
+    right: 2%;
+}
+/*End of nav bar  */
+/* ************** */
+/* home-header section */
+.home-header-container{
+    flex-wrap: wrap-reverse;
+}
+.home-header-photo{
+    width: 100%;
+    padding: 120px 50px 0 50px;
+}
+.home-header-text{
+    width: 100%;
+}
+.home-header-container{
+    margin: 0;
+    padding: 0;
+}
+.home-header-text-container
+{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+.home-header-text-container h1{
+    line-height: 150px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 165px;
+    font-weight: 700; 
+    color: #333;
+}
+.home-header-text-container p{
+    line-height: 80px;
+    margin: 50px;
+    font-size:60px;
+    font-weight: 400;
+}
+.home-header-text-container :nth-child(3){
+    font-size: 50px;
+    width: 50%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 75px;
+}
+.home-header-text-container :nth-child(4)
+{
+    font-size: 50px;
+    width: 50%;
+    margin: 20px;
+}
+.home-header-text-container :nth-child(4) i{
+    padding: 35px;
+}
+/************************************/
+/* Chefs section */
+.chefs-imgs-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+}
+.first-chef,
+.second-chef,
+.third-chef{
+    width: 100%;
+    margin: 20px 0;
+}
+.first-chef-container,
+.second-chef-container,
+.third-chef-container
+{
+    margin: 30px;
+}
+.chefs-text>p{
+    font-size: 80px;
+}
+.chefs-text>h2{
+    margin: 0;
+    font-size: 60px;
+}
+.chefs-container h2{
+    font-size: 100px;
+}
+.chefs-container .p1{
+    margin: 10px;
+    font-size: 40px;
+}
+.chefs-container .p2{
+    margin: 10px 0 ;
+    font-size: 35px;
+    line-height: 55px;
+}
+.photo-icons i{
+    transform: scale(2.5);
+    padding: 30px 45px;
+}
+.view-finder-icon >i{
+    transform: scale(2);
+}
+.view-finder-icon{
+    padding: 35px;
+}
+/* End of our chefs section */
+/*******************************/
+/* Our Gallery section */
+.gallery-text>h2{
+    font-size: 100px;
+}
+.gallery-text>p{
+    font-size: 80px;
+}
+.gallery-imgs-container{
+    display: block;
+}
+.first-two-imgs,
+.second-two-imgs,
+.third-two-imgs{
+    width: 100%;
+    margin: 0;
+}
+.first-first-img,
+.first-second-img,
+.second-first-img,
+.second-second-img,
+.third-first-img,
+.third-second-img,
+.third-third-img{
+    margin: 50px 0;
+}
+.layer-img1 h2,
+.layer-img2 h2,
+.layer-img3 h2,
+.layer-img4 h2,
+.layer-img5 h2,
+.layer-img6 h2,
+.layer-img7 h2{
+    font-size: 100px;
+}
+.layer-img1 p,
+.layer-img2 p,
+.layer-img3 p,
+.layer-img4 p,
+.layer-img5 p,
+.layer-img6 p,
+.layer-img7 p{
+    font-size: 50px;
+}
+/* End of gallery section */
+/**************************/
+/* Contact-section */
+.contact-text{
+    padding: 50px 0;
+}
+.contact-text>p{
+    font-size: 80px;
+}
+.contact-text>h2{
+    font-size: 100px;
+}
+.contact-iframe iframe{
+    height: 800px;
+}
+.contact-details-container{
+    display: block;
+    
+}
+.contact-ouradress,
+.contact-email,
+.contact-callus,
+.contact-opening-hours{
+    width: 100%;
+    margin: 50px 0;
+}
+.contact-ouradress-text h2,
+.content-email-text h2,
+.content-callus-text h2,
+.content-opening-hours-text h2{
+    font-size: 50px;
+}
+.contact-ouradress-text p,
+.content-email-text p,
+.content-callus-text p,
+.content-opening-hours-text p{
+    font-size: 40px;
+}
+.contact-ouradress-icon,
+.contact-email-icon,
+.contact-callus-icon,
+.contact-opening-hours-icon{
+    margin: 10px;
+}
+.contact-ouradress-icon i,
+.contact-email-icon i,
+.contact-callus-icon i, 
+.contact-opening-hours-icon i{
+    transform: scale(2.5);
+    padding: 17px 12px;
+}
+/* Form style */
+.first-two-inputs
+{
+    display: block;
+}
+.first-first-input,
+.first-second-input{
+    width: 100%;
+}
+.first-input,
+.second-input,
+.third-input,
+.form-inputs textarea
+{
+    margin: 20px 0;
+    font-size: 45px;
+}
+.form-button{
+    font-size: 45px;
+    width: 50%;
+}
+/* End of contact section */
+/**************************/
+/* Footer section */
+.footer-home{
+    display: block;
+}
+.footer-home-tablet
+{
+    flex-wrap: wrap;
+}
+.footer-logo{
+    width: 100%;
+}
+.footer-quick-links{
+    width: 100%;
+    font-size: 60px;
+}
+.footer-get-in-touch{
+    width: 100%;
+    font-size: 60px;
+}
+.footer-logo-text>h2{
+    font-size: 90px;
+}
+.footer-logo-img>img{
+    width: 120px;
+}
+.footer-logo-container>p{
+    font-size: 53px;
+    line-height: 68px;
+}
+.footer-logo-text>h2::after{
+    transform: scale(5);
+}
+.footer-social-media{
+    font-size: 50px;
+}
+.footer-social-media i{
+    padding:0 50px;
+    margin: 0 10px;
+}
+.subscribeournewsletter-text>h3{
+    font-size: 80px;
+}
+.subscribeournewsletter-text>p{
+    font-size: 50px;
+    line-height: 80px;
+}
+.subscribeournewsletter-form-input{
+    display: block;
+}
+.subscribeournewsletter-form-input>input{
+    width: 100%;
+    font-size: 50px;
+    margin: 20px 0;
+}
+.subscribeournewsletter-form-input>button{
+    width: 100%;
+    font-size: 50px;
+    margin: 20px 0;
+}
+.quick-links-lists>ul li{
+    margin: 50px 0;
+}
+.footer-get-in-touch-container>h3{
+    font-size: 80px;
+}
+.get-in-touch-list>ul>li{
+    font-size: 45px;
+}
+.footer-home{
+    background-size: 100% 100%;
+}
+}
+/* End of phones media query */
+@media screen and (min-width:670px)and (max-width:1000px){
+    /* Nav-bar section */
+.home{
+    height: fit-content;
+}
+.home-navbar-container{
+    justify-content: space-evenly;
+    position: relative;
+}
+.navbar-logo{
+    transform: translate(-38%,-8%);
+    padding: 30px 0;
+    
+}
+.navbar-logo h2{
+    font-size: 60px;
+}
+.navbar-list li{
+    display: none;
+    transform: translateX(-65%);
+    padding: 10px 15px;
+    font-size: 35px;
+    position: relative;
+}
+.nav-logo-text::before{
+    transform: scale(4.5);
+}
+.navbar-list ul::after{
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    transform: rotate(-18deg);
+    box-shadow: -15px 0px 0px 7px black;
+}
+.mobile-line1,
+.mobile-line2,
+.mobile-line3{
+    width: 40px;
+    border-top: 6px solid black;
+    margin-bottom:10px;
+}
+.mobile-lines{
+    position: absolute;
+    top: 27%;
+    right: 2%;
+}
+/* End of nav bar styles */
+/*********************************/
+/* home-header section */
+.home-header-container{
+    flex-wrap: wrap-reverse;
+}
+.home-header-photo{
+    width: 100%;
+    padding: 50px;
+}
+.home-header-text{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+/* End of Home Section */
+/************************************/
+/* Chefs section */
+.chefs-imgs-container{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.first-chef,
+.second-chef,
+.third-chef{
+    width: 50%;
+}
+.chefs-container .p2{
+    font-size: 13px;
+}
+/* End of our chefs section */
+/*******************************/
+/* Our Gallery section */
+.gallery-imgs-container{
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+}
+.first-two-imgs,
+.second-two-imgs,
+.third-two-imgs{
+    width: 50%;
+}
+.third-two-imgs{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+}
+.third-first-img{
+    width: 49%;
+    position: relative;
+    bottom: 38%;
+}
+.third-second-img
+{
+    width: 49%;
+    position: relative;
+    bottom: 40%;
+}
+.third-third-img{
+    width: 47%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+/* Form style */
+.first-two-inputs
+{
+    display: block;
+}
+.first-first-input,
+.first-second-input{
+    width: 100%;
+}
+.first-input,
+.second-input,
+.third-input,
+.form-inputs textarea
+{
+    margin: 20px 0;
+    font-size: 45px;
+}
+.form-button{
+    font-size: 45px;
+    width: 50%;
+}
+/* End of contact section */
+/**************************/
+/* Footer section */
+.footer-home-tablet{
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+}
+.footer-home-tablet{
+    flex-direction: column;
+}
+.footer-logo{
+    width: 50%;
+    margin: 20px 0 20px 20px;
+}
+.footer-get-in-touch{
+    margin: 20px 50px 20px 0;
+}
+.footer-get-in-touch{
+    width: 50%;
+    position: absolute;
+    right: 0;
+}
+.footer-quick-links{
+    width: 100%;
+}
+}
