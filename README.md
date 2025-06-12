@@ -18,3 +18,5 @@ It is designed to work seamlessly across all devices, offering a clean and user-
 ## 📌 Live Preview
 
 [🔗 View Live](https://mohamed25-ai.github.io/Mealify/)
+# Mealify
+Mealify is a modern restaurant website template built using HTML and CSS. It features a clean, fully responsive design that showcases menus, images, and contact information.
